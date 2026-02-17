@@ -1,0 +1,40 @@
+# Ignore build outputs
+[Bb]in/
+[Oo]bj/
+**/bin/
+**/obj/
+
+# Rider/IDE files
+.idea/
+.vscode/
+.vs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Publish and runtime files
+publish/
+*.dll
+*.exe
+*.deps.json
+*.runtimeconfig.json
+*.staticwebassets.*.json
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
