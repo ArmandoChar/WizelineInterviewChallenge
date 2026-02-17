@@ -1,0 +1,17 @@
+{
+  "name": "C# .NET Dev",
+  "image": "mcr.microsoft.com/dotnet/sdk:8.0",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2.14.0": {}
+  },
+  "postCreateCommand": "dotnet restore",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",       // Extensión oficial de C#
+        "ms-dotnettools.vscode-dotnet-runtime", // Runtime helper
+        "ms-dotnettools.csdevkit"      // C# Dev Kit
+      ]
+    }
+  }
+}
