@@ -8,10 +8,13 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "ms-dotnettools.csharp",       // Extensión oficial de C#
-        "ms-dotnettools.vscode-dotnet-runtime", // Runtime helper
-        "ms-dotnettools.csdevkit"      // C# Dev Kit
-      ]
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "ms-dotnettools.csdevkit"
+      ],
+      "settings": {
+        "workbench.colorTheme": "Default Dark Modern"
+      }
     }
   }
 }
